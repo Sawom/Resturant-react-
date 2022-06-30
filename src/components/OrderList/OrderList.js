@@ -10,7 +10,7 @@ const OrderList = (props) => {
     
     return (
         <div>
-            <h5>Order List</h5>
+            <h6>Order List</h6>
             <h6>Items Ordered: {count}</h6>
         </div>
     );
