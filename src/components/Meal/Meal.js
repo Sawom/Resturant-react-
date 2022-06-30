@@ -10,7 +10,7 @@ const Meal = (props) => {
     return (
         <Col className="meal">
             <img src={strMealThumb} alt="" />
-            <h4>{strMeal}</h4>
+            <h5>{strMeal}</h5>
             <p>{strInstructions.slice(0, 100)}</p>
             <Button onClick={() => handleAddToOrder(meal)} variant="success">Add this Food</Button>
         </Col>
